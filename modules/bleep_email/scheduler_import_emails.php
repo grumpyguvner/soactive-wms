@@ -14,10 +14,10 @@ class importBleepEmails{
         var $username="";
         var $password="";
 
-        var $attachDir="/home/activewms/public_html/modules/bleep_email/attachments/";
+        var $attachDir="/home/www-data/soactive-wms/modules/bleep_email/attachments/";
         var $requiredFiles = "ALSTYLES.CSV BRIGHTON.CSV CGARDEN.CSV COLOUR.CSV DEPTS.CSV ECWAREHOUSEDB.CSV GROUPS.CSV PRODUCTS.CSV SIZE.CSV STYLES.CSV supplier.CSV WEBSTORE.CSV WHSE.CSV";
 
-        var $scriptDir="/home/activewms/public_html/modules/bleep_email/scripts/";
+        var $scriptDir="/home/www-data/soactive-wms/modules/bleep_email/scripts/";
         var $runScripts = "import-files.sh stock-adjustments.sh";
 //        var $runScripts = "send-files-to-netro.sh";
 
