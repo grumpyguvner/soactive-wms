@@ -9,7 +9,10 @@ ErrorDocument 404 /404.php
 <IfModule mod_rewrite.c>
  RewriteEngine on
 # RewriteCond %{REMOTE_ADDR} !^123\.456\.789\.000
- RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
+# RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
 # RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
- RewriteRule .* /maintenance.html [R=302,L]
+# RewriteRule .* /maintenance.html [R=302,L]
+
+ RewriteCond %{REQUEST_URI} /maintenance.html$ [NC]
+ RewriteRule .* / [R=301,L]
 </IfModule>
