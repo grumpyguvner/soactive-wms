@@ -1,0 +1,36 @@
+<?php
+
+	include("../../include/session.php");
+	include_once("include/email_reader.php");
+
+	$log = new phpbmsLog("Connecting to email inbox", "EMAIL CONN");
+
+	$myConn=pop3_login("m.sheactive.net","sales.sheactive","5h3Act!ve");
+	if (!$myConn){
+		$log = new phpbmsLog("unable to connect to email inbox", "EMAIL CONN");
+		exit;
+	}
+
+$log = new phpbmsLog("Listing contents of email inbox", "EMAIL CONN");
+echo "Listing contents of email inbox<br>";
+	$msgList = pop3_list($myConn);
+
+	foreach ($msgList as $msg){
+echo "Message ".$msg["msgno"]."<br>";
+
+		$body = imap_fetchbody($myConn,$msg["msgno"],"1.1");
+		if ($body == "") {
+			$body = imap_fetchbody($myConn,$msg["msgno"], "1");
+		}
+
+		$lines = explode("\n",$body);
+		foreach ($lines as $lin){
+			echo "line:<br>".imap_qprint($lin)."<br>";
+		}
+
+//echo imap_qprint($body)."<br>";
+echo "End of message<br>";
+echo "<br>TODO: MOVE MESSAGE TO PROCESSED FOLDER<br>";
+	}
+
+?>

@@ -1,0 +1,26 @@
+<!DOCTYPE webprojectsession>
+<webprojectsession>
+  <session usePreviewPrefix="0" previewPrefix="" usePersistentBookmarks="0" >
+    <itemcursorpositions>
+      <item column="0" line="0" url="modules/activewms/ediquery.php" />
+    </itemcursorpositions>
+    <debuggers>
+      <pathmapper/>
+      <DBGp/>
+    </debuggers>
+    <uploadprofiles defaultProfile="@" >
+      <profile remote_host="" remote_port="" remote_path="" remote_protocol="ftp" user="" name="@" />
+    </uploadprofiles>
+    <treestatus>
+      <openfolder url="include" />
+      <openfolder url="modules" />
+      <openfolder url="modules/activewms" />
+      <openfolder url="modules/activewms/_install" />
+      <openfolder url="modules/activewms/include" />
+      <openfolder url="modules/base" />
+      <openfolder url="modules/base/include" />
+      <openfolder url="modules/bleep" />
+    </treestatus>
+  </session>
+  <teamdata yourself="" />
+</webprojectsession>

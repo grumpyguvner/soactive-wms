@@ -1,0 +1,1 @@
+INSERT INTO `roles` (`uuid`, `name`, `description`, `inactive`, `createdby`, `creationdate`, `modifiedby`, `modifieddate`, `custom1`, `custom2`, `custom3`, `custom4`, `custom5`, `custom6`, `custom7`, `custom8`) VALUES ('role:ea5f3666-9773-11df-b414-00238b586e42', 'buying', 'Basic user access only.', '0', 1, NOW(), 1, NOW(), NULL, NULL, NULL, NULL, NULL, NULL, '0', '0');

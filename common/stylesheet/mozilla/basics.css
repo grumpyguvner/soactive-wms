@@ -1,0 +1,36 @@
+/* $Rev: 706 $ | $LastChangedBy: brieb $ */
+/* $LastChangedDate: 2010-01-03 21:33:53 -0700 (Sun, 03 Jan 2010) $ */
+
+BODY {
+	background: #F8F8F8;
+	margin:0;
+}
+
+BODY, P, TABLE, TD, FORM, INPUT, SELECT, TEXTAREA, OL, UL, LI, BUTTON {
+	font-size : 12px;
+	font-family : Arial,Helvitica,sans-serif;
+	color : black;
+}
+
+P,.fauxP{
+	margin:0;
+	padding:0 5px 10px;
+}
+
+.alt{display:none;}
+
+UL,OL{
+	margin:5px;
+	padding-left:20px;
+	margin-bottom:0px;
+}
+
+LI{margin-bottom:5px;}
+
+A {
+	color : #455372;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A:Hover { text-decoration:underline;}

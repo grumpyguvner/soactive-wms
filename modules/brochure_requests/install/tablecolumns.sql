@@ -1,0 +1,17 @@
+INSERT INTO `tablecolumns` (`tabledefid`, 
+                            `name`,
+                            `column`,
+                            `align`,
+                            `footerquery`,
+                            `displayorder`,
+                            `sortorder`,
+                            `wrap`,
+                            `size`,
+                            `format`,
+                            `roleid`)
+                    VALUES ('tbld:8fd31ac0-9b43-11e1-879c-a76ad4230cdd','site','brochure_requests.site','left','',1,'brochure_requests.site',0,'20%','',''),
+                           ('tbld:8fd31ac0-9b43-11e1-879c-a76ad4230cdd','reference','brochure_requests.reference','left','',1,'brochure_requests.reference',0,'20%','',''),
+                           ('tbld:8fd31ac0-9b43-11e1-879c-a76ad4230cdd','name','brochure_requests.name','left','',1,'brochure_requests.name',0,'100%','',''),
+                           ('tbld:8fd31ac0-9b43-11e1-879c-a76ad4230cdd','postcode','brochure_requests.postal_code','left','',1,'brochure_requests.postal_code',0,'20%','',''),
+                           ('tbld:8fd31ac0-9b43-11e1-879c-a76ad4230cdd','opted out','brochure_requests.opted_out','left','',1,'brochure_requests.opted_out',0,'20%','',''),
+                           ('tbld:8fd31ac0-9b43-11e1-879c-a76ad4230cdd','undelivered','brochure_requests.undelivered','left','',1,'brochure_requests.undelivered',0,'20%','','');

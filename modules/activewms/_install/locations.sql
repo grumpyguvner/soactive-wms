@@ -1,0 +1,4 @@
+INSERT INTO `locations` (`uuid`, `name`, `bleepid`, `inactive`, `priority`, `createdby`, `creationdate`, `modifiedby`, `modifieddate`) VALUES ('locn:67b54589-183e-cd28-a38e-c9650c12e19b', 'Billingshurst', 'WEBSTORE', 0, 0, 1, NOW(), 1, NOW());
+INSERT INTO `locations` (`uuid`, `name`, `bleepid`, `inactive`, `priority`, `createdby`, `creationdate`, `modifiedby`, `modifieddate`) VALUES ('locn:fd162662-bb70-2363-de84-2c70afc49d4f', 'Brighton', 'BRIGHTON', 0, 0, 1, NOW(), 1, NOW());
+INSERT INTO `locations` (`uuid`, `name`, `bleepid`, `inactive`, `priority`, `createdby`, `creationdate`, `modifiedby`, `modifieddate`) VALUES ('locn:5a593188-5656-00b5-82ef-d34d8ff08293', 'Exhibitions', 'CGARDEN', 0, 0, 1, NOW(), 1, NOW());
+INSERT INTO `locations` (`uuid`, `name`, `bleepid`, `inactive`, `priority`, `createdby`, `creationdate`, `modifiedby`, `modifieddate`) VALUES ('locn:f11967a6-deb0-8db0-bda5-560873ef6cd5', 'Phantom Stock', 'WHSE', 0, 0, 1, NOW(), 1, NOW());

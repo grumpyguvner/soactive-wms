@@ -1,0 +1,7 @@
+[text]this_missing_image_is=[middle startafter=zoom/&endbefore=.][Thisurl][/middle][/text]
+
+[showif [fileinfo file=[this_missing_image_is].jpg][Exists][/fileinfo]=F]
+	[text]this_missing_image_is=missingimage[/text]
+[/showif]
+
+[ReturnRaw binarybody=[this_missing_image_is].jpg]HTTP/1.0 200 OK[unurl]%0D%0A[/unurl]Content-type: image/gif[unurl]%0D%0A%0D%0A[/unurl][include file=[this_missing_image_is].jpg][/ReturnRaw]

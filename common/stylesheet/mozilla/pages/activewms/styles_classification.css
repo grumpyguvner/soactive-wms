@@ -1,0 +1,81 @@
+/* $Rev: 524 $ | $LastChangedBy: brieb $ */
+/* $LastChangedDate: 2009-05-09 13:54:45 -0600 (Sat, 09 May 2009) $ */
+#topButtons{
+    float:right;
+    width:160px;
+}
+
+#topTitle{
+    margin-right:160px;
+}
+
+#rightsideDiv{
+    clear:both;
+    float:right;
+    width:50%;
+    margin:0;
+    padding:0;
+}
+
+#leftsideDiv{
+    margin-right:50%;
+    padding-top:1px;
+}
+
+#sportDiv{
+    background:#F7FAFA none repeat scroll 0 0;
+    border:1px solid #ABB1B1;
+    margin:0 5px 10px;
+    overflow: auto;
+    height: 200px;
+
+}
+
+#sportDiv:hover{
+    background: white;
+    border-color:black;
+}
+
+.moreSports{
+    padding: 3px 0px 3px 5px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.moreSports:hover{
+    background: #EEEEEE;
+}
+
+.moreSports input{
+
+    border: none;
+    background: none;
+}
+
+#categoryDiv{
+    background:#F7FAFA none repeat scroll 0 0;
+    border:1px solid #ABB1B1;
+    margin:0 5px 10px;
+    overflow: auto;
+    height: 200px;
+
+}
+
+#categoryDiv:hover{
+    background: white;
+    border-color:black;
+}
+
+.moreCategories{
+    padding: 3px 0px 3px 5px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.moreCategories:hover{
+    background: #EEEEEE;
+}
+
+.moreCategories input{
+
+    border: none;
+    background: none;
+}

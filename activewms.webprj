@@ -1,0 +1,515 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project type="Local" name="activeWMS" encoding="utf8" enableEvents="true" >
+    <upload/>
+    <defaultDTD>-//w3c//dtd html 4.01 transitional//en</defaultDTD>
+    <item url="common/" uploadstatus="1" />
+    <item url="common/image/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/down_arrow.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/fail.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/kreotek-logo.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/logo-large.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/logo.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/spinner.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/success.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/up_arrow.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/image/warning.gif" uploadstatus="1" />
+    <item url="common/javascript/" uploadstatus="1" />
+    <item url="common/javascript/moo/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/moo/moo.fx.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/moo/moo.fx.pack.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/moo/prototype.lite.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/choicelist.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/common.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/datepicker.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/fields.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/login.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/menu.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/onchange.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/print.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/queryfunctions.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/smartsearch.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/javascript/timepicker.js" uploadstatus="1" />
+    <item url="common/stylesheet/" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/image/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/back.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/bodyline.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-back.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-check.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-date.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-delete-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-delete.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-down-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-download.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-down.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-edit-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-edit.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-email.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-ff.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-help.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-ical.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-info.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-map.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-minus-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-minus.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-money-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-money.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-moveupdn.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-new.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-note.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-plus.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-pressed.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-print-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-print.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-rew.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-ship-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-ship.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/buttons.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-sql-down.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-sql-up.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-time.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-timestamp.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-up-disabled.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-up.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-www.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/button-x.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/client.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/h1graphic.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/magnify.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/menu.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/note.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/prospect.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search.gif" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-back.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-cmd-db.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-cmd.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-delete-db.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-delete.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-edit-db.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-edit.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-firstback.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-itemback.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-new.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-print-db.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-print.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-selection-db.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-selection.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-sql-dn.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/search-toolbar-sql.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/section-down.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/snapshot-separator.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/statusmessage.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/statusm-left.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/statusm-right.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/image/tab.gif" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/pages/" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/pages/api/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/api/pushrecords.css" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/pages/base/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/adminsettings.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/modules.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/notes.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/reports.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/smartsearches.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/snapshot.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/tablecustom.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/base/widgets.css" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/pages/bms/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/bms/addresses.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/bms/clientaddresses.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/bms/clienthistoryreport.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/bms/consolidateclients.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/bms/incoming_cashflow.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/bms/post.css" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/pages/mailchimp/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/mailchimp/manual_sync.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/aging.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/aritems_clientstatement.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/aritems.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/client.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/clients_credit.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/discounts.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/files.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/generaltableprint.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/historyreports.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/imports.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/info.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/invoice.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/invoicestatuses.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/invoicestatushistory.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/login.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/menus.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/myaccount.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/paymentmethods.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/print.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/products.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/quickview.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/receipts.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/recurringinvoices.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/relationships.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/requirements.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/roles.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/scheduler.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/search.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/shippingmethods.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tablecolumns.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tabledefs.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tableoptions.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tablequicksearch.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tablesearchfields.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tabs.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/tax.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/totalreports.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/users.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/usersearches.css" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/widgets/" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/widgets/base/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/widgets/base/events.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/widgets/base/systemstats.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/widgets/base/workload.css" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/widgets/bms/" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/widgets/bms/recentclients.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/widgets/bms/recentsalesorders.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/base.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/basics.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/boxes.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/calendar.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/forms.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/menu.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/modal.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/queryresults.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/reports.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/sizes.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/tabs.css" uploadstatus="1" />
+    <item url="fpdf/" uploadstatus="1" />
+    <item url="fpdf/filters/" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/filters/FilterASCII85_FPDI.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/filters/FilterASCII85.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/filters/FilterLZW_FPDI.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/filters/FilterLZW.php" uploadstatus="1" />
+    <item url="fpdf/font/" uploadstatus="1" />
+    <item url="fpdf/font/makefont/" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1250.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1251.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1252.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1253.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1254.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1255.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1257.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp1258.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/cp874.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-11.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-15.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-16.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-1.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-2.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-4.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-5.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-7.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/iso-8859-9.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/koi8-r.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/koi8-u.map" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/makefont/makefont.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/courier.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/helveticabi.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/helveticab.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/helveticai.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/helvetica.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/symbol.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/timesbi.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/timesb.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/timesi.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/times.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/font/zapfdingbats.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/fpdf.css" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/fpdf.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/fpdi_pdf_parser.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/fpdi.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/pdf_context.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/pdf_parser.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="fpdf/tpl_and_memimage.php" uploadstatus="1" />
+    <item url="help/" uploadstatus="1" />
+    <item modified_time="1276160346" url="help/index.php" uploadstatus="1" />
+    <item url="include/" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/common_functions.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/createmodifiedby.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/db.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/fields.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/imports.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/jstransport.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/login_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/menu_class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/parsecsv.lib.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/post_class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/print_class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="include/relationships.php" uploadstatus="1" />
+    <item modified_time="1280812510" url="include/search_class.php" uploadstatus="1" />
+    <item modified_time="1280919940" url="include/session.php" uploadstatus="1" />
+    <item modified_time="1280793888" url="include/tables.php" uploadstatus="1" />
+    <item url="modules/" uploadstatus="1" />
+    <item url="modules/base/" uploadstatus="1" />
+    <item url="modules/base/include/" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/adminsettings_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/attachments.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/files.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/menu.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/myaccount.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/notes.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/notes_records_process.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/relationships.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/reports.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/roles.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/scheduler.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/snapshot_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tabledefs_columns_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tabledefs_custom.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tabledefs_options_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tabledefs.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tabledefs_quicksearch_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tabledefs_searchfields_include.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/tablegroupings.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/usersearches.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/users.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/include/widgets.php" uploadstatus="1" />
+    <item url="modules/base/javascript/" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/adminsettings.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/file.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/menu.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/myaccount.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/notes.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/reports.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/roles.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/scheduler.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/snapshot.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/tablecustom.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/tabledefs.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/tableoptions.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/javascript/users.js" uploadstatus="1" />
+    <item url="modules/base/report/" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/report/tabledefs_sqlexport.php" uploadstatus="1" />
+    <item url="modules/base/widgets/" uploadstatus="1" />
+    <item url="modules/base/widgets/events/" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/events/ajax.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/events/class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/events/events.js" uploadstatus="1" />
+    <item url="modules/base/widgets/systemstats/" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/systemstats/class.php" uploadstatus="1" />
+    <item url="modules/base/widgets/workload/" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/workload/ajax.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/workload/class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets/workload/workload.js" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/adminsettings_ajax.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/adminsettings.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/attachments_records.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/cron.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/files_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/general_import.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/ical.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/menu_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/menu-example-category.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/menu-example-link.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/menu-example-tabledef.png" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/modules_view.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/myaccount.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/notes_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/notes_ajax.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/notes_records.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/relationships_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/reports_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/roles_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/scheduler_addedit.php" uploadstatus="1" />
+    <item modified_time="1279726031" url="modules/base/scheduler_delete_logs.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/scheduler_delete_tempimport.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/smartsearches_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/snapshot_ajax.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/snapshot.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_columns.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_custom.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_groupings.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_options.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_quicksearch.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabledefs_searchfields.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/tabs_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/users_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/usersearches_edit.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="modules/base/widgets_addedit.php" uploadstatus="1" />
+    <item url="report/" uploadstatus="1" />
+    <item modified_time="1276160346" url="report/general_export.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="report/general_labels.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="report/general_sql.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="report/general_tableprint.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="report/pdfreport_class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="report/report_class.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="advancedsearch.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="advancedsort.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="ChangeLog" uploadstatus="1" />
+    <item modified_time="1276160346" url="checkunique.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="choicelist.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="datepicker.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="dbgraphic.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="defaultsettings.php" uploadstatus="1" />
+    <item modified_time="1279974707" url="favicon.ico" uploadstatus="1" />
+    <item modified_time="1278324021" url="footer.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="header.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="index.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="info.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="license.txt" uploadstatus="1" />
+    <item modified_time="1276160346" url="loadsearch.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="logout.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="noaccess.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="phpbmsversion.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="print.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="README" uploadstatus="1" />
+    <item modified_time="1276160346" url="requirements.php" uploadstatus="1" />
+    <item modified_time="1280845468" url="search.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="servefile.php" uploadstatus="1" />
+    <item modified_time="1279974001" url="settings.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="smartsearch.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="THANKS.txt" uploadstatus="1" />
+    <item modified_time="1276160346" url="timepicker.php" uploadstatus="1" />
+    <item url="" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <annotations/>
+    <item url="modules/activewms/" uploadstatus="1" />
+    <item url="modules/activewms/include/" uploadstatus="1" />
+    <item modified_time="1276440967" url="modules/activewms/version.php" uploadstatus="1" />
+    <item url="modules/bleep/" uploadstatus="1" />
+    <item modified_time="1276568970" url="modules/bleep/import.php" uploadstatus="1" />
+    <item modified_time="1276441064" url="modules/bleep/version.php" uploadstatus="1" />
+    <item url="modules/bleep/include/" uploadstatus="1" />
+    <item modified_time="1279730690" url="modules/bleep/adminsettings.php" uploadstatus="1" />
+    <item modified_time="1276494647" url="modules/bleep/include/importlogs.php" uploadstatus="1" />
+    <item modified_time="1278414335" url="modules/bleep/bleep_import.php" uploadstatus="1" />
+    <item modified_time="1282139612" url="modules/bleep/include/bleep_db.php" uploadstatus="1" />
+    <item modified_time="1276573674" url="modules/activewms/sizes_addedit.php" uploadstatus="1" />
+    <item url="common/stylesheet/mozilla/pages/activewms/" uploadstatus="1" />
+    <item modified_time="1276573428" url="common/stylesheet/mozilla/pages/activewms/sizes.css" uploadstatus="1" />
+    <item modified_time="1277397383" url="modules/bleep/sizes_deactivate.php" uploadstatus="1" />
+    <item modified_time="1277397427" url="modules/bleep/colours_deactivate.php" uploadstatus="1" />
+    <item modified_time="1277293923" url="modules/activewms/colours_addedit.php" uploadstatus="1" />
+    <item modified_time="1277293449" url="common/stylesheet/mozilla/pages/activewms/colours.css" uploadstatus="1" />
+    <item modified_time="1277294882" url="common/stylesheet/mozilla/pages/activewms/groups.css" uploadstatus="1" />
+    <item modified_time="1280009215" url="modules/activewms/groups_addedit.php" uploadstatus="1" />
+    <item modified_time="1277397400" url="modules/bleep/groups_deactivate.php" uploadstatus="1" />
+    <item modified_time="1277296535" url="common/stylesheet/mozilla/pages/activewms/departments.css" uploadstatus="1" />
+    <item modified_time="1280009215" url="modules/activewms/departments_addedit.php" uploadstatus="1" />
+    <item modified_time="1277397414" url="modules/bleep/departments_deactivate.php" uploadstatus="1" />
+    <item modified_time="1277310324" url="common/stylesheet/mozilla/pages/activewms/suppliers.css" uploadstatus="1" />
+    <item modified_time="1277311163" url="modules/activewms/suppliers_addedit.php" uploadstatus="1" />
+    <item modified_time="1277397355" url="modules/bleep/suppliers_deactivate.php" uploadstatus="1" />
+    <item modified_time="1277763036" url="modules/bleep/styles_deactivate.php" uploadstatus="1" />
+    <item modified_time="1277759433" url="common/stylesheet/mozilla/pages/activewms/styles.css" uploadstatus="1" />
+    <item modified_time="1280143385" url="modules/activewms/javascript/style.js" uploadstatus="1" />
+    <item url="modules/activewms/javascript/" uploadstatus="1" />
+    <item modified_time="1282050441" url="modules/activewms/styles_addedit.php" uploadstatus="1" />
+    <author>Mark Horton</author>
+    <email>mark@hortonconsulting.co.uk</email>
+    <debuggerclient persistentWatches="0" persistentBreakpoints="0" >DBGp</debuggerclient>
+    <exclude cvsignore="false" />
+    <teamdata>
+      <taskleaders/>
+      <subprojectleaders/>
+      <mailinglist address="" />
+    </teamdata>
+    <events/>
+    <item modified_time="1278503571" url="modules/bleep/products_deactivate.php" uploadstatus="1" />
+    <item modified_time="1278413326" url="modules/activewms/locations_addedit.php" uploadstatus="1" />
+    <item modified_time="1278344078" url="common/stylesheet/mozilla/pages/activewms/locations.css" uploadstatus="1" />
+    <item modified_time="1278416791" url="modules/bleep/stock_import.php" uploadstatus="1" />
+    <item modified_time="1282139657" url="modules/bleep/scheduler_import_groups.php" uploadstatus="1" />
+    <item modified_time="1282226500" url="modules/bleep/include/google_translate.php" uploadstatus="1" />
+    <item modified_time="1282139657" url="modules/bleep/scheduler_import_departments.php" uploadstatus="1" />
+    <item modified_time="1282139657" url="modules/bleep/scheduler_import_colours.php" uploadstatus="1" />
+    <item modified_time="1282139657" url="modules/bleep/scheduler_import_sizes.php" uploadstatus="1" />
+    <item modified_time="1282139657" url="modules/bleep/scheduler_import_suppliers.php" uploadstatus="1" />
+    <item modified_time="1282228310" url="modules/bleep/scheduler_import_styles.php" uploadstatus="1" />
+    <item modified_time="1280808946" url="modules/activewms/styles_webdetails.php" uploadstatus="1" />
+    <item modified_time="1280074445" url="modules/bleep/include/common_functions.php" uploadstatus="1" />
+    <item modified_time="1280167490" url="modules/bleep/temp_import_products.php" uploadstatus="1" />
+    <item modified_time="1282152882" url="modules/bleep/scheduler_import_products.php" uploadstatus="1" />
+    <item modified_time="1280255491" url="modules/activewms/include/stylecategories.php" uploadstatus="1" />
+    <item modified_time="1276160346" url="common/stylesheet/mozilla/pages/stylecategories.css" uploadstatus="1" />
+    <item modified_time="1280255752" url="modules/activewms/stylecategories_addedit.php" uploadstatus="1" />
+    <item modified_time="1282226995" url="modules/bleep/scheduler_translations.php" uploadstatus="1" />
+    <item url="modules/api/" uploadstatus="1" />
+    <item url="modules/api/_install/" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/adminsettings.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/api_json.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/api_servefile.php" uploadstatus="1" />
+    <item url="modules/api/include/" uploadstatus="1" />
+    <item url="modules/api/javascript/" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/push_records_addedit.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/push_records_ajax.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/version.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/createtables.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/install.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/menu.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/modules.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/smartsearches.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/tablecolumns.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/tabledefs.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/tablefindoptions.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/tableoptions.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/tablesearchablefields.sql" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/_install/update.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/include/apiclass.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/include/push.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/include/pushrecords.php" uploadstatus="1" />
+    <item modified_time="1276160348" url="modules/api/javascript/pushrecords.js" uploadstatus="1" />
+    <item modified_time="1283309282" url="modules/activewms/ediquery.php" uploadstatus="1" />
+    <item modified_time="1281700763" url="modules/activewms/include/styles.php" uploadstatus="1" />
+    <item modified_time="1280812482" url="modules/activewms/styles_translations.php" uploadstatus="1" />
+    <item modified_time="1280810361" url="modules/activewms/include/styles_translations_class.php" uploadstatus="1" />
+    <item modified_time="1280811594" url="common/stylesheet/mozilla/pages/activewms/styletranslations.css" uploadstatus="1" />
+    <item modified_time="1280814914" url="modules/activewms/_install/readme.txt" uploadstatus="1" />
+    <item url="modules/activewms/_install/" uploadstatus="1" />
+    <item modified_time="1280839538" url="modules/activewms/styletranslations_addedit.php" uploadstatus="1" />
+    <item modified_time="1280916990" url="modules/activewms/include/google_translate.php" uploadstatus="1" />
+    <item modified_time="1280922602" url="modules/activewms/text_autotranslate.php" uploadstatus="1" />
+    <item modified_time="1282045466" url="modules/activewms/producttypes_addedit.php" uploadstatus="1" />
+    <item modified_time="1282132818" url="modules/activewms/styles_products.php" uploadstatus="1" />
+    <item modified_time="1282132822" url="modules/activewms/include/styles_products_class.php" uploadstatus="1" />
+    <item url="modules/netro_email/" uploadstatus="1" />
+    <item url="modules/netro_email/_install/" uploadstatus="1" />
+    <item url="modules/netro_email/include/" uploadstatus="1" />
+    <item url="modules/netro_email/javascript/" uploadstatus="1" />
+    <item url="modules/netro_email/version.php" uploadstatus="1" />
+    <item url="modules/netro_email/_install/modules.sql" uploadstatus="1" />
+    <item url="modules/netro_email/include/email_reader.php" uploadstatus="1" />
+    <item url="modules/netro_email/adminsettings.php" uploadstatus="1" />
+    <item url="modules/activewms/_install/attractive.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/choices.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/createtables.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/install.php" uploadstatus="1" />
+    <item url="modules/activewms/_install/locations.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/menu.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/modules.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/relationships.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/roles.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/scheduler.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/settings.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/smartsearches.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tablecolumns.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tabledefs.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tablefindoptions.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tablegroupings.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tableoptions.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tablesearchablefields.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/tabs.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/usersearches.sql" uploadstatus="1" />
+    <item url="modules/activewms/_install/widgets.sql" uploadstatus="1" />
+    <item url="modules/netro_email/_install/settings.sql" uploadstatus="1" />
+    <item url="modules/netro_email/_install/menu.sql" uploadstatus="1" />
+    <item url="modules/netro_email/view.php" uploadstatus="1" />
+    <item url="modules/netro_email/_install/tabledefs.sql" uploadstatus="1" />
+    <item url="modules/netro_email/_install/createtables.sql" uploadstatus="1" />
+    <item url="modules/netro_email/scheduler_import_emails.php" uploadstatus="1" />
+    <item url="modules/activewms/_install/createtables2.sql" uploadstatus="1" />
+    <item url="modules/activewms/edineworder.php" uploadstatus="1" />
+    <item url="modules/activewms/include/order.php" uploadstatus="1" />
+    <item url="modules/activewms/include/orderitem.php" uploadstatus="1" />
+  </project>
+</webproject>

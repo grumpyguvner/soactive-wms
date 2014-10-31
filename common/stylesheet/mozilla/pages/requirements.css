@@ -1,0 +1,15 @@
+/* $Rev: 485 $ | $LastChangedBy: nate $ */
+/* $LastChangedDate: 2009-04-07 11:44:18 -0600 (Tue, 07 Apr 2009) $ */
+#container{
+	width:740px;
+	margin:10px auto;
+}
+
+#browserTable{
+	width: 100%
+}
+
+#loginButton{
+	padding-left: 10px;
+	padding-right: 10px;
+}

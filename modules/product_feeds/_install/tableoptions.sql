@@ -1,0 +1,4 @@
+INSERT INTO `tableoptions` (`tabledefid`, `name`, `option`, `needselect`, `othercommand`, `roleid`, `displayorder`) VALUES ('tbld:7f9b7006-888f-11e1-8108-001d0923519e','select','1',0,0,'',0);
+INSERT INTO `tableoptions` (`tabledefid`, `name`, `option`, `needselect`, `othercommand`, `roleid`, `displayorder`) VALUES ('tbld:7f9b7006-888f-11e1-8108-001d0923519e','edit','1',0,0,'',0);
+INSERT INTO `tableoptions` (`tabledefid`, `name`, `option`, `needselect`, `othercommand`, `roleid`, `displayorder`) VALUES ('tbld:7f9b7006-888f-11e1-8108-001d0923519e','new','1',0,0,'',0);
+INSERT INTO `tableoptions` (`tabledefid`, `name`, `option`, `needselect`, `othercommand`, `roleid`, `displayorder`) VALUES ('tbld:7f9b7006-888f-11e1-8108-001d0923519e','import','1',0,0,'',0);

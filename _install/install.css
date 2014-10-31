@@ -1,0 +1,136 @@
+li{
+    margin-bottom: 20px;
+}
+
+.bodyline,#topTitle{
+    width:100%;
+    max-width: 740px;
+    margin:10px auto;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+p{
+    margin:10px 0;
+    padding:0;
+}
+
+#navPanel{
+    float: left;
+    width: 190px;
+}
+
+#navSelect{
+    font-size: 12px;
+    padding:0;
+    width: 98%
+}
+
+#stepsPanel{
+    margin-left: 198px;
+    min-height: 400px;
+    border-left: 1px solid #CCCCCC;
+    padding-left: 8px;
+}
+
+
+.success{
+    color: green;
+    line-height: 16px;
+    background: url("../common/image/success.gif") no-repeat left;
+    padding:2px 0 2px 20px;
+}
+
+.fail {
+    color: red;
+    line-height: 16px;
+    background: url("../common/image/fail.gif") no-repeat left;
+    padding:2px 0 2px 20px;
+}
+
+.warning {
+    line-height: 16px;
+    background: url("../common/image/warning.gif") no-repeat left;
+    padding:2px 0 2px 20px;
+}
+
+.running {
+    line-height: 16px;
+    background: url("../common/image/spinner.gif") no-repeat left;
+    padding:2px 0 2px 20px;
+}
+
+
+#sysRequirements td{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px 10px;
+}
+
+.results{width:99%;font-family:'Courier New', Courier, mono;font-size:13px;}
+.testButtonsP{text-align:center; padding:20px;}
+
+.nextprevP{
+    float: right;
+    margin: 0;
+}
+
+.nextButtons, .prevButtons{
+    padding:3px 20px;
+}
+
+.debugResults{
+    display: none;
+}
+
+#moduleTable td{
+
+    padding: 12px 10px 5px;
+    border-top: 1px solid #CCCCCC;
+    vertical-align: top;
+}
+
+    #moduleTable td h3{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+.bmsModule td{
+    background: #E4ECEC url("../common/stylesheet/mozilla/image/bodyline.png") repeat-x scroll left bottom;
+    border-bottom: 1px solid #999999;
+}
+
+#moduleTable th{
+    text-align: left;
+    background: #7B8DA1;
+    color: white;
+    padding: 10px;
+}
+
+.moduleInstall{
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+#registerP {
+    background:white none repeat scroll 0 0;
+    border:1px solid #CCCCCC;
+    font-size:19px;
+    padding:10px;
+    color: #9F0000;
+    text-align:center;
+    margin: 15px 10px;
+}
+
+#userpassTable{
+
+    margin: 10px auto;
+
+}
+
+    #userpassTable td{
+
+        font-size: 22px;
+
+    }

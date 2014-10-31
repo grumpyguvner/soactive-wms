@@ -1,0 +1,76 @@
+/* $Rev: 712 $ | $LastChangedBy: brieb $ */
+/* $LastChangedDate: 2010-01-05 09:42:49 -0700 (Tue, 05 Jan 2010) $ */
+
+/* ============================================================================== */
+/* Font size/standouts/headers                                                    */
+/* ============================================================================== */
+
+.huge{font-size : 17px;}
+.large{font-size : 16px;}
+.small,.notes { font-size : 11px;}
+.tiny { font-size : 10px}
+.mono {font-family:'Courier New', Courier, mono;}
+
+.standout{
+	background-color:#0B63A2;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	padding:4px;
+}
+
+.notes {
+    color: #9F0000;
+    line-height: 1.5em;
+}
+
+.important {font-weight:bold;}
+
+H1 {
+	font-family: Arial, Helvitica, sans-serif;
+	font-size: 24px;
+	margin:0 0 5px 2px;
+        padding: 0;
+	font-weight: normal;
+}
+
+LEGEND,H2{
+	font-weight:bold;
+	font-size: 19px;
+	color:#455372;
+	text-transform:capitalize;
+	font-family: Arial, Helvitica, sans-serif;
+}
+
+legend {
+    margin-top:0px;
+    font-size:16px;
+    font-weight: normal;
+    padding: 0 3px;
+    margin-left: 4px;
+}
+
+H2{
+	/*border-bottom: 1px solid #ccc;*/
+	padding: 0;
+        margin: 18px 0 10px;
+}
+
+H3{
+	font-size:15px;
+	font-weight:bold;
+	margin:12px 0 5px;
+        font-family: Arial, Helvitica, sans-serif;
+}
+
+H4{
+	font-size:12px;
+	font-weight:bold;
+	margin:2px;
+	margin-top:10px;
+    font-family: Arial, Helvitica, sans-serif;
+}
+
+.big input, .big button, .big select{
+    font-size: 15px;
+}
