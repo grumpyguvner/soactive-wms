@@ -16,8 +16,8 @@ class importImageFiles{
 
 	//This method scans all files in the named folder
 	//and attempts to import the images
-        // default folder is /home/www-data/soactive-wms/uploads/
-	function beginImport($dir="/home/www-data/soactive-wms/uploads/"){
+        // default folder is /uploads/
+	function beginImport($dir=$_SERVER['DOCUMENT_ROOT']."/uploads/"){
 
             $this->importMainImages($dir);
 
@@ -169,7 +169,7 @@ class importImageFiles{
             }
 
             list($name,$extension) = explode(".",$file);
-            $filepath = "/home/www-data/soactive-wms".$variables["image_folder"].$file;
+            $filepath = $_SERVER['DOCUMENT_ROOT'].$variables["image_folder"].$file;
             if(!file_exists($filepath)){
                 echo "File [".$filepath."] does not exist.<br/>";
                 return false;

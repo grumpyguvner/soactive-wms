@@ -3,7 +3,7 @@
 # Script to import files from Bleep into database ready for processing
 #
 # This module assumes that the files have been copied to the local folder
-#  /home/www-data/soactive-wms/modules/bleep_email/attachments - contains the files exported from Bleep server (SHESERVER)
+#  /modules/bleep_email/attachments - contains the files exported from Bleep server (SHESERVER)
 #
 
 echo "Begin processing ..."
@@ -14,7 +14,7 @@ db_pass="St4rl!ght"
 
 email="datatransfers@sheactive.net"
 
-cd /home/www-data/soactive-wms/modules/bleep_email/attachments
+cd ../attachments
 
 error_flag=0 # set the flag so that we know if succesfull
 FILES="*"

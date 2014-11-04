@@ -26,11 +26,11 @@ echo "**************************************************************************
 //                print_r ($part);
                 if (isset($part["filename"])){
 echo "****************  FOUND FILE ATTACHEMENT ".$part["filename"]." ***********<br>";
-                    $file = fopen("/home/www-data/soactive-wms/modules/bleep_email/attachments/".$part["filename"],"w");
+                    $file = fopen($_SERVER['DOCUMENT_ROOT']."/modules/bleep_email/attachments/".$part["filename"],"w");
                     fwrite($file, preg_replace('/(\r\n|\r|\n)/s',"\n",$part["data"]));
                     fclose($file);
                 }
-                //imap_savebody ($myConn, "/home/www-data/soactive-wms/modules/bleep_email/attachments/webupdates.tar.gz", $msg["msgno"], "2.2");
+                //imap_savebody ($myConn, $_SERVER['DOCUMENT_ROOT']."/modules/bleep_email/attachments/webupdates.tar.gz", $msg["msgno"], "2.2");
             }
 
         }

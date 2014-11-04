@@ -13,8 +13,10 @@ class importImageFiles{
 
 	//This method scans all files in the named folder
 	//and attempts to import the images
-        // default folder is /home/www-data/soactive-wms/uploads/
-	function beginImport($dir="/home/www-data/soactive-wms/uploadify/uploads/"){
+        // default folder is /uploads/
+	function beginImport($dir=""){
+	if ($dir==="")
+            $dir = $_SERVER['DOCUMENT_ROOT']."/uploadify/uploads/";
 
             echo "<ul>";
             // Open a known directory, and proceed to read its contents
@@ -138,7 +140,7 @@ class importImageFiles{
             }
 
             list($name,$extension) = explode(".",$file);
-//            $filepath = "/home/www-data/soactive-wms".$variables["image_folder"].$file;
+//            $filepath = $_SERVER['DOCUMENT_ROOT'].$variables["image_folder"].$file;
             $filepath = $dir.$file;
             if(!file_exists($filepath)){
                 echo "<br/>File [".$filepath."] does not exist.";
