@@ -3,9 +3,9 @@
 //	require_once("../../phpuploader/include_phpuploader.php");
 	require_once("include/fields.php");
 
-	$phpbms->jsIncludes[] = "uploadify/jquery-1.4.2.min.js";
-	$phpbms->jsIncludes[] = "uploadify/swfobject.js";
-	$phpbms->jsIncludes[] = "uploadify/jquery.uploadify.v2.1.4.min.js";
+	$phpbms->cssIncludes[] = "../../../uploadifive/uploadifive.css";
+	$phpbms->jsIncludes[] = "uploadifive/jquery.min.js";
+	$phpbms->jsIncludes[] = "uploadifive/jquery.uploadifive.min.js";
 
 
 	$pagetitle="Image Uploader";
@@ -15,25 +15,27 @@
 	?>
 <div class="bodyline">
 	<h1><?php echo $pagetitle?></h1>
+	<form>
+		<div id="queue"></div>
+		<input id="file_upload" name="file_upload" type="file" class="Buttons" multiple="true">
+		<!-- <a style="position: relative; top: 8px;" href="javascript:$('#file_upload').uploadifive('upload')">Upload Files</a> -->
+	</form>
 
-        <input id="file_upload" type="file" name="file_upload" />
-        <div id="image_container"></div>
-</div>
+	<script type="text/javascript">
+		<?php $timestamp = time();?>
+		$(function() {
+			$('#file_upload').uploadifive({
+				'auto'             : true,
+				'checkScript'      : 'uploadifive/check-exists.php',
+				'formData'         : {
+									   'timestamp' : '<?php echo $timestamp;?>',
+									   'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+				                     },
+				'queueID'          : 'queue',
+				'uploadScript'     : 'uploadifive/uploadifive.php',
+				'onUploadComplete' : function(file, data) { console.log(data); },
+                                'onQueueComplete'  : function(queueData) { window.location.href = "/uploadifive/processfiles.php"; }
+			});
+		});
+	</script>
 <?php include("footer.php");?>
-<script type="text/javascript">
-$(document).ready(function() {
-  $('#file_upload').uploadify({
-    'uploader'  : 'uploadify/uploadify.swf',
-    'script'    : 'uploadify/uploadify.php',
-    'cancelImg' : 'uploadify/cancel.png',
-    'folder'    : 'uploadify/uploads',
-    'onAllComplete' : function(event,data) {
-            $.get('uploadify/filelist.php', function(data) {
-            $('#image_container').html(data);
-            });
-        },
-    'multi'           : true,
-    'auto'            : true
-  });
-});
-</script>
