@@ -108,7 +108,7 @@ echo "All required files are present so continuing ..."
 mount /mnt/sheactive.co.uk/db
 if [ $? -ne 0 ] # test the status of the "mount" command
 then
-  echo "failed to mount the remote folder" | mail -s "Website Database Update *** ERROR ***" datatransfers@sheactive.net
+  echo "failed to mount the remote folder" | mail -s "Website Database Update *** ERROR ***" reports@soactive.com
   exit 99 #exit with error
 fi
 
@@ -129,7 +129,7 @@ do
     cp $f1 $f2
     if [ $? -ne 0 ] # test the status of the "cp" command
     then
-      echo "failed to make a backup copy of $f1" | mail -s "Website Database Update *** ERROR ***" datatransfers@sheactive.net
+      echo "failed to make a backup copy of $f1" | mail -s "Website Database Update *** ERROR ***" reports@soactive.com
       error_flag=1
     fi
 
@@ -162,7 +162,7 @@ do
 
     if [ $success -ne 1 ] # test if transfer successful
     then
-      echo "failed to transfer $f1" | mail -s "Website Database Update *** ERROR ***" datatransfers@sheactive.net
+      echo "failed to transfer $f1" | mail -s "Website Database Update *** ERROR ***" reports@soactive.com
       error_flag=1
     else
       rm $f1 #remove file when successful
@@ -205,11 +205,11 @@ cd /home/activewms/data_transfers/netro_working
 
 #   if [ $? -ne 0 ] # test the status of the "wget" command
 #   then
-#     echo "there was an error with the second part of the update ..." | mail -s "Website Database Update *** ERROR ***" datatransfers@sheactive.net
+#     echo "there was an error with the second part of the update ..." | mail -s "Website Database Update *** ERROR ***" reports@soactive.com
 #     error_flag=1
 #   fi
 # else
-#   echo "there was an error with the first part of the update ..." | mail -s "Website Database Update *** ERROR ***" datatransfers@sheactive.net
+#   echo "there was an error with the first part of the update ..." | mail -s "Website Database Update *** ERROR ***" reports@soactive.com
 #   error_flag=1
 # fi
 #
@@ -249,7 +249,7 @@ echo "http://sheactive.co.uk/db/db_mover_new.php" >> ${EMAILMESSAGE}
 echo " " >> ${EMAILMESSAGE}
 echo " " >> ${EMAILMESSAGE}
 echo "--- End of Report ---" >> ${EMAILMESSAGE}
-mail -s "${EMAILSUBJECT}" "datatransfers@sheactive.net" < ${EMAILMESSAGE}
+mail -s "${EMAILSUBJECT}" "reports@soactive.com" < ${EMAILMESSAGE}
 /bin/rm ${EMAILMESSAGE}
 
 exit 0 #Exit normally

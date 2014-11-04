@@ -18,8 +18,8 @@ echo " " >> ${EMAILMESSAGE}
 cat ${EMAILFILE} >> ${EMAILMESSAGE}
 echo " " >> ${EMAILMESSAGE}
 echo "--- End of Report ---" >> ${EMAILMESSAGE}
-# (cat ${EMAILMESSAGE};cat ${EMAILFILE}) | mail -s "${EMAILSUBJECT}" "datatransfers@sheactive.net"
-(cat ${EMAILMESSAGE}) | mail -s "${EMAILSUBJECT}" "datatransfers@sheactive.net"
+# (cat ${EMAILMESSAGE};cat ${EMAILFILE}) | mail -s "${EMAILSUBJECT}" "mark.horton@boundlesscommerce.co.uk"
+(cat ${EMAILMESSAGE}) | mail -s "${EMAILSUBJECT}" "reports@soactive.com"
 /bin/rm ${EMAILMESSAGE}
 /bin/rm ${EMAILFILE}
 
